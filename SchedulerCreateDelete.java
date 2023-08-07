@@ -64,7 +64,7 @@ public class SchedulerCreateDelete {
 		public void run() {
 			String threadName = Thread.currentThread().getName();
 			System.out.println("Running thread: " + threadName);
-			String directoryPath = "D:\\new-workspace\\Etihad02\\src\\X";
+			String directoryPath = "NEEDS TO BE CHANGED";
 			File directory = new File(directoryPath);
 			if (!directory.exists()) {
 				System.out.println("THE DIRECTORY REQUESTED IS NOT AVAILABLE");
